@@ -1,12 +1,12 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter_starter/ui/ui.dart';
 
+export './faq/faq_page.dart';
 export './home/home_page.dart';
-export './settings/settings_page.dart';
-export './posts/posts_page.dart';
 export './main/main.dart';
 export './post_detail/post_detail_page.dart';
-export './faq/faq_page.dart';
+export './posts/posts_page.dart';
+export './settings/settings_page.dart';
 
 const appRoutes = [
   AutoRoute(
