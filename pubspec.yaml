@@ -36,6 +36,13 @@ dependencies:
   cupertino_icons: ^1.0.2
   auto_route: ^4.2.1
   get_it: ^7.2.0
+  connectivity_plus: ^2.3.6
+  rxdart: ^0.27.5
+  get: ^4.6.5
+  speed_up_get: ^0.0.2
+  speed_up: ^0.8.3
+  speed_up_flutter: ^0.8.4
+  fluent_result: ^7.1.0
 
 dev_dependencies:
   flutter_test:
