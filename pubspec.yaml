@@ -30,21 +30,44 @@ dependencies:
   flutter:
     sdk: flutter
 
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
-  auto_route: ^4.2.1
+  # Core
+  flutter_dotenv: ^5.0.2
+  sentry_flutter: ^6.9.0
   get_it: ^7.2.0
   connectivity_plus: ^2.3.6
   rxdart: ^0.27.5
   get: ^4.6.5
+  dio: ^4.0.6 
+  retrofit: ^3.0.1+1
+  logger: ^1.1.0
   speed_up_get: ^0.0.2
   speed_up: ^0.8.3
   speed_up_flutter: ^0.8.4
   fluent_result: ^7.1.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  flutter_secure_storage: ^5.0.2
+  shared_preferences: ^2.0.15
+  url_launcher: ^6.1.5
+  package_info_plus: ^1.4.3
+  freezed_annotation: ^2.1.0
+  device_info_plus: ^4.0.1
+  equatable: ^2.0.3
+  event_bus_plus: ^0.2.2
+
+  # UI
+  cupertino_icons: ^1.0.2
+  auto_route: ^4.2.1
+  google_fonts: ^3.0.1
+  font_awesome_flutter: ^10.1.0
+  flutter_svg: ^1.1.1+1
+  intl: ^0.17.0
+  cached_network_image: ^3.2.1
+
 
 dev_dependencies:
+  auto_route_generator: ^4.2.0
+  build_runner: ^2.2.0
   flutter_test:
     sdk: flutter
 
@@ -53,9 +76,15 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^2.0.0
-  auto_route_generator: ^4.2.0
-  build_runner: ^2.2.0
+  flutter_lints: ^2.0.1
+  freezed: ^2.1.0+1
+  json_serializable: ^6.3.1
+  hive_generator: ^1.1.3
+  retrofit_generator: ^4.0.3
+  shouldly: ^0.5.0+1
+  # given_when_then_unit_test: 
+  golden_toolkit: ^0.13.0
+  mocktail: ^0.3.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
