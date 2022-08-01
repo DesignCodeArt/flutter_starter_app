@@ -47,6 +47,8 @@ app.*.map.json
 /android/app/release
 
 # Mine
+**/dotenv
+**/.env
 **/*.g.dart
 **/*.gr.dart
 !lib/app/routing/app_router.gr.dart
